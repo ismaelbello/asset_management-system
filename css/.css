@@ -1,0 +1,41 @@
+/*submit page styling*/
+
+.submit-container{
+  width: 100vw;
+  height: 100vh;
+}
+.logo{
+  padding-left: 70%;
+}
+
+.track1{
+  text-align: center;
+  margin-top:15% ;
+
+}
+.icon{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  max-width: 650px;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 16px;
+
+}
+.sub {
+  width: 60px;
+}
+#image{
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 8;
+  border: 5px solid red;
+}
+.line{
+  width: 8em;
+  border-bottom: 2px solid grey;
+  margin-bottom: 75px;
+}

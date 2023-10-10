@@ -1,0 +1,241 @@
+*{
+  font-family: 'FF Cocon Condensed Light', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+}
+html, body{
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  max-width: 100vw;
+
+}
+.logo img{
+  width: 150px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+.container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+/*Styling the left sidebar*/
+}
+aside{
+  width: 22%;
+  padding: 6.5em 2em 2em 2em;
+  border-right: #ddd solid 0.1px;
+
+}
+.search{
+  margin-bottom: 2em;
+}
+.search-feild{
+  width: 100%;
+  line-height: 2rem;
+  border-radius: 0.5em;
+}
+.search-icon{
+  position: absolute;
+  left: 14.5em;
+  top: 7em;
+}
+.nav-items{
+  margin-bottom: 1.5em;
+}
+/*Styling for left sidebar end*/
+
+/*Styling for right sidebar begins*/
+
+.right-sidebar{
+  width: 100%;
+  padding: 5em 1em;
+  width: 75%;
+  outline: #000000;
+}
+
+.logo{
+  position: absolute;
+  right: 5em;
+  top: 2em;
+}
+h1{
+  font-size: 1.5rem;
+}
+.heading-left h1{
+  margin-bottom: -0.7em;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.buttons-right{
+  margin-top: 2.5em;
+}
+.btn1{
+  width: 6em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  background-color: #ffffff;
+  border: 1px solid rgb(161, 161, 161)
+}
+.btn2{
+  width: 8em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.upload{
+  outline: 1px solid black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 1em;
+  margin-bottom: 1em;
+}
+.upload label p{
+  margin-top: -0.5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.row1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-content input{
+  width: 280px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.lower-content input{
+  width: 25%;
+  line-height: 1.8rem;
+  border-radius: 0.5em;
+  box-shadow:0px 5px 5px 0px #ddd;
+  margin-top: 10px;
+}
+.lower-content img{
+  position: absolute;
+  left: 525px;
+  top: 785px;
+}
+.lowerpane{
+  margin-bottom: 5em;
+}
+
+.active{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 0.1em;
+}
+.correct{
+  display: flex;
+}
+.correct img{
+  margin-right: 1rem;
+}
+.para1{
+  margin-left: -9em;
+}
+.add{
+  float: right;
+  margin-top: 40px;
+}
+.add input{
+  width: 8em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  background-color: #000000;
+  color: #ffffff;
+
+}
+/*request pafe styling*/
+.container-request{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.request-heading{
+  width: 70%;
+}
+::placeholder { 
+  color: rgb(153, 152, 152);
+  opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+  color: rgb(153, 152, 152);
+}
+
+::-ms-input-placeholder {
+  color: rgb(153, 152, 152);
+}
+

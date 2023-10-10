@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel- Manage Assets | Asset Management System</title>
+  <link rel="stylesheet" href="/css/add-asset.css">
+</head>
+<body>
+  <section class="container">
+    <aside class="left-sidebar">
+      <div class="search">
+        <input type="text" class="search-feild">
+        <img src="/assets/search_icon.png" alt="" class="search-icon" width="20px">
+      </div>
+
+      <div class="nav">
+        <div class="nav-items">
+          <a href=""><img src="/assets/homeicon.png" alt="" width="20px"> Home</a>
+        </div>
+        <div class="nav-items">
+          <a href=""><img src="/assets/filtericon.png" alt="" width="20px"> Filter</a>
+        </div>
+        <div class="nav-items">
+          <input type="checkbox">Serial No.<br>
+          <a href="">Yes | </a><a href="">No</a>
+        </div>
+        <div class="nav-items">
+          <input type="checkbox">Serial No.<br>
+          <a href="">Yes | </a<a href="">No</a>
+        </div>
+        <div class="nav-items">
+          <input type="checkbox">Asset Type<br>
+          <a href="">IT | </a><a href="">Non IT | </a> <a href="">Fixed | </a><a href="">Non IT </a>   
+        </div>
+        <div class="nav-items">
+          <input type="checkbox">Location<br>
+          <a href="">Lagos | </a><a href="">Outside Lagos</a>   
+        </div>
+        <div class="nav-items">
+          <input type="checkbox">Location<br>
+          <a href="">Any Date | </a><a href="">Today | </a><a href="">Past 7 Days</a><br>
+          <a href="">This Month | </a><a href="">This Year</a>  
+        </div>
+        <div class="nav-items">
+          <a href=""><img src="/assets/pending.png" alt="" width="20px"> Pending</a>
+        </div>
+        <div class="nav-items">
+          <a href=""><img src="/assets/approved-icon.png" alt="" width="20px"> Approved</a>
+        </div>
+        <div class="nav-items">
+          <a href=""><img src="/assets/rejected-icon.png" alt="" width="20px"> Rejected Request</a>
+        </div>
+
+      </div>
+    </aside>
+
+    <section class="right-sidebar">
+      <div class="logo">
+        <img src="/assets/Sterling_Bank_Logo.png" alt="Sterling Bank" width="150px">
+      </div>
+      <div class="heading">
+        <div class="heading-left">
+          <h1>Files and Assets</h1>
+          <p>Documents and attachment that have been uploaded as part of your inventories</p>
+        </div>
+        <div class="buttons-right">
+          <button class="btn1"> Export </button>
+          <button class="btn2">+ Add Inventory</button>
+        </div>
+      </div>
+
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks" onclick="viewItems(event, 'viewall')">View All</button>
+        <button class="tablinks" onclick="viewItems(event, 'Pending')">Pending</button>
+        <button class="tablinks" onclick="viewItems(event, 'approved')">Approved</button>
+        <button class="tablinks" onclick="viewItems(event, 'rejected')">Rejected</button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="viewall" class="tabcontent">
+        <table>
+          <tr>
+            <th><input type="checkbox" name = "checked" onclick='selects()'/>Asset Name</th>
+            <th>Date Added</th>
+            <th>Last updated</th>
+            <th>Added By</th>
+            <th>Status</th>
+            <th>Assigned to</th>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Approved</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Approved</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>pending</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Approved</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Approved</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Rejected</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Approved</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Pending</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Rejected</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+        </table>
+      </div>
+      <div id="Pending" class="tabcontent">
+        <table>
+          <tr>
+            <th><input type="checkbox">Asset Name</th>
+            <th>Date Added</th>
+            <th>Last updated</th>
+            <th>Added By</th>
+            <th>Status</th>
+            <th>Assigned to</th>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Pending</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Pending</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Pending</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+            <td>27th Jan 2017</td>
+            <td>10th Dec 2019</td>
+            <td>Ibrahim Jamiu</td>
+            <td>Pending</td>
+            <td>Ayodeji Saba</td>
+          </tr>
+        </table>
+    </div>
+    
+    <div id="approved" class="tabcontent">
+      <table>
+        <tr>
+          <th><input type="checkbox">Asset Name</th>
+          <th>Date Added</th>
+          <th>Last updated</th>
+          <th>Added By</th>
+          <th>Status</th>
+          <th>Assigned to</th>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+          <td>27th Jan 2017</td>
+          <td>10th Dec 2019</td>
+          <td>Ibrahim Jamiu</td>
+          <td>Approved</td>
+          <td>Ayodeji Saba</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+          <td>27th Jan 2017</td>
+          <td>10th Dec 2019</td>
+          <td>Ibrahim Jamiu</td>
+          <td>Approved</td>
+          <td>Ayodeji Saba</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+          <td>27th Jan 2017</td>
+          <td>10th Dec 2019</td>
+          <td>Ibrahim Jamiu</td>
+          <td>Approved</td>
+          <td>Ayodeji Saba</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+          <td>27th Jan 2017</td>
+          <td>10th Dec 2019</td>
+          <td>Ibrahim Jamiu</td>
+          <td>Approved</td>
+          <td>Ayodeji Saba</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+          <td>27th Jan 2017</td>
+          <td>10th Dec 2019</td>
+          <td>Ibrahim Jamiu</td>
+          <td>Approved</td>
+          <td>Ayodeji Saba</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div id="rejected" class="tabcontent">
+      <table>
+        <tr>
+          <th><input type="checkbox">Asset Name</th>
+          <th>Date Added</th>
+          <th>Last updated</th>
+          <th>Added By</th>
+          <th>Status</th>
+          <th>Assigned to</th>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+          <td>27th Jan 2017</td>
+          <td>10th Dec 2019</td>
+          <td>Ibrahim Jamiu</td>
+          <td>Rejected</td>
+          <td>Ayodeji Saba</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name = "checked">HP Notebook 14-Intel® Celeron -8GB</a></td>
+          <td>27th Jan 2017</td>
+          <td>10th Dec 2019</td>
+          <td>Ibrahim Jamiu</td>
+          <td>Rejected</td>
+          <td>Ayodeji Saba</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <script src="/js/script.js"></script>
+  <script src="/js/script1.js"></script>
+</body>
+</html>
