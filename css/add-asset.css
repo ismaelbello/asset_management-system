@@ -30,6 +30,7 @@ aside{
   width: 22%;
   padding: 6.5em 2em 2em 2em;
   border-right: #ddd solid 0.1px;
+  background-color: silver;
 
 }
 .search{
@@ -82,19 +83,20 @@ h1{
   width: 6em;
   height: 2.5em;
   border-radius: 0.5em;
-  background-color: #ffffff;
+  background-color: silver;
   border: 1px solid rgb(161, 161, 161)
 }
 .btn2{
   width: 8em;
   height: 2.5em;
   border-radius: 0.5em;
-  background-color: #000000;
+  background-color: red;
   color: #ffffff;
+  border: none;
 }
 
 .upload{
-  outline: 1px solid black;
+  outline: 1px solid red;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -209,8 +211,9 @@ tr:nth-child(odd) {
   width: 8em;
   height: 2.5em;
   border-radius: 0.5em;
-  background-color: #000000;
+  background-color: red;
   color: #ffffff;
+  border: none;
 
 }
 /*request pafe styling*/

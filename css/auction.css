@@ -1,0 +1,154 @@
+@import url(https://fonts.google.com/specimen/Luxurious+Roman?query=roman);
+
+*{
+    box-sizing: border-box;
+   
+}
+
+header{
+    color: black;
+    background-color: silver;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 150px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__link a {
+    display: inline;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nav__link a:hover {
+    background-color: #DC1C1C;
+    transition-duration: 0.5s;
+    color: #ffffff;
+        
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+}
+
+/* THIS IS THE BODY BACKGROUND SECTION */
+.containerBackground{
+background-color: #000000;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    background: url(https://geauction.com/wp-content/uploads/2018/07/5-Auction-Tips-for-Beginners2.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+   
+    
+}
+
+/* THIS IS THE WELCOME TEXT REGION */
+.welcomeText {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.username{
+    color: #DC1C1C;
+}
+.welcomeText p{
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+
+/* THIS IS A DIV THAT SYLE ALL THE AUCTION ITEMS */
+
+.auctionContainer{
+    display:flex;
+    flex-wrap: wrap;
+    margin:20px;
+}
+
+.auctionContainer > div{
+    margin: 15px;
+    padding: 10px;
+   border: 2px solid #36454F;  
+}
+
+.auctionContainer > div p{
+    font-size: 2rem;
+    color:#646464;
+    text-align: center;
+   
+}
+.auctionContainer > div ul li{
+   padding-left: 50px;
+   list-style: none;
+   font-size: 20px;
+}
+
+/* THIS IS THE PURCHASE BUTTON STYLE */
+.purchaseBtn{
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: #DC1C1C;
+    padding: 10px;
+    color:#ffffff;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 5rem;
+    border: none;
+    width: 10em;
+}
+.purchaseBtn:hover{
+    font-size: 1rem;
+    background-color: #ffffff;
+    color:#000000;
+    position: relative;
+    border: 2px solid #DC1C1C ;
+    transform: 0.2s;
+    cursor: pointer;
+}
+
+
+
+/* Hover effect on each Auction item */
+
+.auctionContainer > div:hover{
+    background-color: #F7CCCC;
+    border: 2px solid black;
+    box-shadow: 5px 10px 8px #888888;
+    
+    border: 2px solid red;  
+}
+
+
+.backBotton{
+    /* display: flex; */
+    
+    
+    
+    font-size: 3rem;
+    font-weight: 400;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 50%;
+}

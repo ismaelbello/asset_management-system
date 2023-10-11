@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/css/dashboard.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <a><span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="#">
+          <span class="nav-item">Home</span>
+        </a></li>
+        <li><a href="">
+          <span class="nav-item">Analytics</span>
+        </a></li>
+        <li><a href="">
+          <span class="nav-item">Request Assets</span>
+        </a></li>
+        <li><a href="">
+          <span class="nav-item">Add Assets</span>
+        </a></li>
+        <li><a href="">
+          <span class="nav-item">Manage Assets</span>
+        </a></li>
+        <li><a href="./Assetbybranch.html">
+          <span class="nav-item">Assets by Branch</span>
+        </a></li>
+        <li><a href="./Assetbybranch.html">
+          <span class="nav-item">Auction</span>
+        </a></li>
+      </ul>
+    </nav>
+
+    <section class="main">
+      <div class="main-analytics">
+        <div class="card">
+          <h3>Total Asset</h3>
+          <h2>30</h2>
+        </div>
+        <div class="card1">
+          <h3>Avialable</h3>
+          <h2>6</h2>
+        </div>
+        <div class="card2">
+          <h3>Assigned</h3>
+          <h2>8</h2>
+        </div>
+        <div class="card3">
+          <h3>Lost/Stolen</h3>
+          <h2>0</h2>
+        </div>
+        <div class="card4">
+          <h3>Repaired</h3>
+          <h2>12</h2>
+        </div>
+        <div class="card5">
+          <h3>Damaged</h3>
+          <h2>4</h2>
+        </div>
+        
+      </div>
+
+      <div class="chartbox">
+        <div class="box">
+          <canvas id="mychart" width="300" height="300">
+
+          </canvas>
+        </div>
+        <div class="box">
+          <canvas id="mychart1" width="300" height="300">
+
+          </canvas>
+
+        </div>
+        <div class="box">
+          <canvas id="mychart2" width="300" height="300">
+          </canvas>
+
+        </div>
+        </div>
+        <div>
+          <p>THIS IS THE THIRD DIV Meant for</p>
+        </div>
+
+    </section>
+  </div>
+</body>
+<script src="./mychart.js"></script>
+<script src="./mychart1.js"></script>
+<script src="./mychart2.js"></script>
+
+
+</html>

@@ -90,11 +90,12 @@ p{
 }
 .btn{
     color: white;
-    background-color: black;
+    background-color: red;
     margin-top: 10px;
     width: 25%;
     padding: 10px 10px;
     border-radius: 5px;
     margin-bottom: 40px;
+    border: none;
 }
 

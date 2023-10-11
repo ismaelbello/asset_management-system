@@ -44,3 +44,15 @@
   border-bottom: 2px solid grey;
   margin-bottom: 80px;
 }
+
+.btn{
+  color: white;
+  background-color: red;
+  margin-top: 60px;
+  width: 8%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  /* margin-bottom: 40px; */
+  border: none;
+  margin-left: 45%;
+}
