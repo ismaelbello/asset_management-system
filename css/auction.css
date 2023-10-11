@@ -117,8 +117,8 @@ background-color: #000000;
 }
 .purchaseBtn:hover{
     font-size: 1rem;
-    background-color: #ffffff;
-    color:#000000;
+    background-color: black;
+    color: white;
     position: relative;
     border: 2px solid #DC1C1C ;
     transform: 0.2s;
@@ -140,8 +140,6 @@ background-color: #000000;
 
 .backBotton{
     /* display: flex; */
-    
-    
     
     font-size: 3rem;
     font-weight: 400;
