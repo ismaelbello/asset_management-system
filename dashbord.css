@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #f4f7f7;
+}
+.container{
+  display:flex;
+}
+nav{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #eb1010;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+a{
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 20px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+  font-weight:300;
+  padding-bottom: 10%;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+a:hover{
+  background: #646464;
+}
+
+/* Main Section */
+.main{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.main-top{
+  display: flex;
+  width: 100%;
+}
+.main-analytics{
+  display: flex;
+  margin-top: 20px;
+  background-color:#646464;
+}
+.main-analytics .card{
+  width: 25%;
+  margin: 10px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  
+}
+.main-analytics .card1{
+  width: 25%;
+  margin: 10px;
+  background: #B3ACAC;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  
+}
+.main-analytics .card2{
+  width: 25%;
+  margin: 10px;
+  background: #eb1010;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  
+}
+.main-analytics .card3{
+  width: 25%;
+  margin: 10px;
+  background: silver;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  
+}
+.main-analytics .card4{
+  width: 25%;
+  margin: 10px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  
+}
+.main-analytics .card5{
+  width: 25%;
+  margin: 10px;
+  background: #e8c3b9;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  
+}
+
+.main-analytics .card h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-analytics .card p{
+  font-size: 12px;
+}
+
+.main-analytics .card1 h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-analytics .card1 p{
+  font-size: 12px;
+}
+.main-analytics .card2 h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-analytics .card2 p{
+  font-size: 12px;
+}
+.main-analytics .card3 h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-analytics .card3 p{
+  font-size: 12px;
+}
+.main-analytics .card4 h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-analytics .card4 p{
+  font-size: 12px;
+}
+.main-analytics .card5 h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-analytics .card5 p{
+  font-size: 12px;
+}
+
+.chartbox{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  min-height: 100px;
+  background-color: #B3ACAC;
+}
+.chartbox .box{
+  position: relative;
+  background: white;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+  border-radius: 20px;
+}
+
