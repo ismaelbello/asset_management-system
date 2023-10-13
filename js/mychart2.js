@@ -1,11 +1,12 @@
-var xValues = ["Annex", "Kaduna", "Oshodi", "Head office", "Ilupeju"];
-var yValues = [55, 49, 44, 24, 15];
+var xValues = ["Desktop", "Printer", "Chair", "Table", "ATM","Laptop"];
+var yValues = [55, 49, 44, 24, 50,33];
 var barColors = [
     "#DC1C1C",
     "#646464",
     "#B3ACAC",
     "#e8c3b9",
-    "#FFFFFF"
+    "red",
+    // "#876eeb"
 ];
 
 new Chart("mychart2", {

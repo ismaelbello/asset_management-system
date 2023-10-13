@@ -25,9 +25,9 @@ header{
 }
 
 .nav__link a:hover {
-    background-color: #DC1C1C;
-    transition-duration: 0.5s;
-    color: #ffffff;
+    color: hsl(0, 87%, 40%);
+    transition-duration: 0.2s;
+    color: hsl(0, 87%, 40%);
         
 }
 
@@ -48,7 +48,7 @@ background-color: #000000;
     text-align: center;
     color: #ffffff;
     background: url(https://geauction.com/wp-content/uploads/2018/07/5-Auction-Tips-for-Beginners2.jpg);
-    height: 40rem;
+    height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.3;
@@ -68,7 +68,7 @@ background-color: #000000;
 }
 
 .username{
-    color: #DC1C1C;
+    color: hsl(0, 87%, 40%);
 }
 .welcomeText p{
     font-weight: 200;
@@ -87,26 +87,29 @@ background-color: #000000;
 .auctionContainer > div{
     margin: 15px;
     padding: 10px;
-   border: 2px solid #36454F;  
+   /* border: 2px solid #36454F;   */
 }
 
 .auctionContainer > div p{
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
     color:#646464;
     text-align: center;
+    margin-bottom: 3px;
    
 }
 .auctionContainer > div ul li{
-   padding-left: 50px;
+   text-align: center;
    list-style: none;
-   font-size: 20px;
+   font-size: 1rem;
+
 }
 
 /* THIS IS THE PURCHASE BUTTON STYLE */
-.purchaseBtn{
+/* .purchaseBtn{
     font-size: 1rem;
     font-weight: 200;
-    background-color: #DC1C1C;
+    background-color: hsl(0, 87%, 40%);
     padding: 10px;
     color:#ffffff;
     border-radius: 20px;
@@ -120,10 +123,10 @@ background-color: #000000;
     background-color: black;
     color: white;
     position: relative;
-    border: 2px solid #DC1C1C ;
+    border: 2px solid hsl(0, 87%, 40%);
     transform: 0.2s;
     cursor: pointer;
-}
+} */
 
 
 
@@ -131,10 +134,10 @@ background-color: #000000;
 
 .auctionContainer > div:hover{
     background-color: #F7CCCC;
-    border: 2px solid black;
+    border: 2px solid #888888;
     box-shadow: 5px 10px 8px #888888;
     
-    border: 2px solid red;  
+    /* border: 2px solid hsl(0, 87%, 40%);   */
 }
 
 

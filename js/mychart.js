@@ -1,11 +1,12 @@
-var xValues = ["Annex", "Kaduna", "Head office", "Ilupeju","Ali kaduna"];
-var yValues = [55, 49, 44, 24, 15];
+var xValues = ["Annex", "Kaduna", "Head office", "Ilupeju","Ali kaduna","Yaba"];
+var yValues = [55, 49, 44, 24, 60,38];
 var barColors = [
   "#DC1C1C",
   "#646464",
   "#B3ACAC",
   "#e8c3b9",
-  "#FFFFFF"
+  "red",
+  // "#876ee"
 ];
 
 new Chart("mychart", {
@@ -20,7 +21,7 @@ new Chart("mychart", {
   options: {
     title: {
       display: true,
-      text: "Total asset by branch"
+      text: "Total asset in branches"
     }
   }
 });

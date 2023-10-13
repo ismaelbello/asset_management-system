@@ -37,7 +37,7 @@
   width: 45px;
   height: 45px;
   padding: 8;
-  border: 5px solid red;
+  border: 5px solid hsl(0, 87%, 40%);
 }
 .line{
   width: 8em;
@@ -47,7 +47,7 @@
 
 .btn{
   color: white;
-  background-color: red;
+  background-color: hsl(0, 87%, 40%);
   margin-top: 60px;
   width: 8%;
   padding: 10px 10px;

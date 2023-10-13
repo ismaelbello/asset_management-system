@@ -49,6 +49,12 @@ aside{
 .nav-items{
   margin-bottom: 1.5em;
 }
+
+.nav-items a{
+  color: hsl(0, 87%, 40%);     
+}
+
+
 /*Styling for left sidebar end*/
 
 /*Styling for right sidebar begins*/
@@ -90,13 +96,13 @@ h1{
   width: 8em;
   height: 2.5em;
   border-radius: 0.5em;
-  background-color: red;
+  background-color: hsl(0, 87%, 40%);
   color: #ffffff;
   border: none;
 }
 
 .upload{
-  outline: 1px solid red;
+  outline: 1px solid hsl(0, 87%, 40%);
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -211,7 +217,7 @@ tr:nth-child(odd) {
   width: 8em;
   height: 2.5em;
   border-radius: 0.5em;
-  background-color: red;
+  background-color: hsl(0, 87%, 40%);
   color: #ffffff;
   border: none;
 

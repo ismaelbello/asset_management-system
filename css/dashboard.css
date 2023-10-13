@@ -8,7 +8,7 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background: #f4f7f7;
+  background: whitesmoke;
 }
 .container{
   display:flex;
@@ -19,9 +19,9 @@ nav{
   bottom: 0;
   height: 100vh;
   left: 0;
-  background: #eb1010;
+  background: hsl(0, 59%, 20%);
   width: 280px;
-  overflow: hidden;
+  overflow: initial;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 a{
@@ -36,12 +36,12 @@ a{
 }
 .nav-item{
   position: relative;
-  top: 12px;
+  top: 5px;
   margin-left: 10px;
   color: #ffffff;
 }
 a:hover{
-  background: #646464;
+  background-color: hsl(0, 87%, 40%);
 }
 
 /* Main Section */
@@ -57,7 +57,7 @@ a:hover{
 .main-analytics{
   display: flex;
   margin-top: 20px;
-  background-color:#646464;
+  background-color: hsl(0, 59%, 20%);
 }
 .main-analytics .card{
   width: 25%;
@@ -84,7 +84,7 @@ a:hover{
 .main-analytics .card2{
   width: 25%;
   margin: 10px;
-  background: #eb1010;
+  background: hsl(0, 87%, 40%);
   text-align: center;
   border-radius: 20px;
   padding: 18px;
@@ -96,18 +96,18 @@ a:hover{
 .main-analytics .card3{
   width: 25%;
   margin: 10px;
-  background: silver;
+  background: whitesmoke;
   text-align: center;
   border-radius: 20px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   font-size: 12px;
-  
+  color: #000;
 }
 .main-analytics .card4{
   width: 25%;
   margin: 10px;
-  background: #ffffff;
+  background: silver;
   text-align: center;
   border-radius: 20px;
   padding: 18px;
@@ -135,42 +135,6 @@ a:hover{
   font-size: 12px;
 }
 
-/* .main-analytics .card1 {
-  margin: 12px;
-  text-transform: capitalize;
-}
-.main-analytics .card1 {
-  font-size: 12px;
-}
-.main-analytics .card2 h3{
-  margin: 12px;
-  text-transform: capitalize;
-}
-.main-analytics .card2 p{
-  font-size: 12px;
-}
-.main-analytics .card3 h3{
-  margin: 10px;
-  text-transform: capitalize;
-}
-.main-analytics .card3 p{
-  font-size: 12px;
-}
-.main-analytics .card4 h3{
-  margin: 10px;
-  text-transform: capitalize;
-}
-.main-analytics .card4 p{
-  font-size: 12px;
-}
-.main-analytics .card5 h3{
-  margin: 10px;
-  text-transform: capitalize;
-}
-.main-analytics .card5 p{
-  font-size: 12px;
-} */
-
 .chartbox{
   position: relative;
   width: 100%;
@@ -183,10 +147,20 @@ a:hover{
 }
 .chartbox .box{
   position: relative;
-  background: white;
+  background: whitesmoke;
   padding: 20px;
   width: 100%;
   box-shadow: 0 7px 25px rgba(0,0,0,0.08);
   border-radius: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  nav{
+    width: 15%;
+  }
+  a{
+    width: 200px;
+  }
+ 
 }
 
