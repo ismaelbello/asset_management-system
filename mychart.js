@@ -5,7 +5,7 @@ var barColors = [
   "#646464",
   "#B3ACAC",
   "#e8c3b9",
-  "#FFFFFF"
+  "blue"
 ];
 
 new Chart("mychart", {
