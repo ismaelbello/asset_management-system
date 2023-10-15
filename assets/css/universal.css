@@ -1,4 +1,4 @@
-*{
+/* *{
   font-family: 'FF Cocon Condensed Light', 'Gill Sans MT','Trebuchet MS', sans-serif;
   box-sizing: border-box;
 }
@@ -18,13 +18,13 @@ html, body{
 a{
   text-decoration: none;
   color: #000000;
-}
+} */
 .container{
   display: flex;
   width: 100%;
   height: 100%;
 
-/*Styling the left sidebar*/
+
 }
 aside{
   width: 22%;
@@ -46,31 +46,30 @@ aside{
   left: 14.5em;
   top: 7em;
 }
-.nav-items{
+/* .nav-items{
   margin-bottom: 1.5em;
 }
 
 .nav-items a{
   color: hsl(0, 87%, 40%);     
-}
+} */
 
 
 /*Styling for left sidebar end*/
 
 /*Styling for right sidebar begins*/
 
-.right-sidebar{
-  width: 100%;
+/* .right-sidebar{
   padding: 5em 1em;
   width: 75%;
   outline: #000000;
-}
+} */
 
-.logo{
+/* .logo{
   position: absolute;
   right: 5em;
   top: 2em;
-}
+} */
 h1{
   font-size: 1.5rem;
 }
@@ -82,9 +81,9 @@ h1{
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.buttons-right{
+/* .buttons-right{
   margin-top: 2.5em;
-}
+} */
 .btn1{
   width: 6em;
   height: 2.5em;
@@ -181,7 +180,7 @@ tr:nth-child(odd) {
   line-height: 1.8rem;
   border-radius: 0.5em;
   box-shadow:0px 5px 5px 0px #ddd;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .lower-content img{
   position: absolute;
@@ -212,7 +211,7 @@ tr:nth-child(odd) {
 .add{
   float: right;
   margin-top: 40px;
-}
+} 
 .add input{
   width: 8em;
   height: 2.5em;
@@ -223,7 +222,7 @@ tr:nth-child(odd) {
 
 }
 /*request pafe styling*/
-.container-request{
+/* .container-request{
   height: 100%;
   width: 100%;
   display: flex;
@@ -231,7 +230,7 @@ tr:nth-child(odd) {
   justify-content: center;
   align-items: center;
   
-}
+} */
 .request-heading{
   width: 70%;
 }
@@ -246,5 +245,9 @@ tr:nth-child(odd) {
 
 ::-ms-input-placeholder {
   color: rgb(153, 152, 152);
+}
+
+.lowerpane{
+  margin-bottom: -20px;
 }
 

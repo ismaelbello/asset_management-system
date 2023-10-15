@@ -5,59 +5,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sterling Asset Management System</title>
-  <link rel="stylesheet" href="/css/add-asset.css">
+  <!-- <link rel="stylesheet" href="/assets/css/universal.css"> -->
+  <link rel="stylesheet" href="/assets/css/manage.css">
 </head>
 <body>
-  <section class="container">
-    <aside class="left-sidebar">
-      <div class="search">
-        <input type="text" class="search-feild">
-        <img src="/assets/search_icon.png" alt="" class="search-icon" width="20px">
-      </div>
-      
-      <div class="nav-items">
-        <a href="/pages/dashboard.html"><img src="" alt="" width="20px">Dashboard</a>
-      </div>
+  <div class="container">
+    <nav class="side-bar">
+      <ul>
 
-      <div class="nav">
-        <div class="nav-items">
-          <a href="index2.html"><img src="/assets/filtericon.png" alt="" width="20px"> Filter</a>
-        </div>
-        <div class="nav-items">
-          <input type="checkbox">&nbsp;Serial No.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="">Yes | </a><a href="">No</a>
-        </div>
-        <div class="nav-items">
-          <input type="checkbox">&nbsp;Asset Type<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="">IT | </a><a href="">Non IT | </a> <a href="">Fixed | </a><a href="">Non IT </a>   
-        </div>
-        <div class="nav-items">
-          <input type="checkbox">&nbsp;Location<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="">Lagos | </a><a href="">Outside Lagos</a>   
-        </div>
-        <div class="nav-items">
-          <input type="checkbox">&nbsp;Date Added<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="">Any Date | </a><a href="">Today | </a><a href="">Past 7 Days</a><br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">This Month | </a><a href="">This Year</a>  
-        </div>
-        <div class="nav-items">
-          <a href=""><img src="/assets/pending.png" alt="" width="20px"> Pending</a>
-        </div>
-        <div class="nav-items">
-          <a href=""><img src="/assets/approved-icon.png" alt="" width="20px"> Approved</a>
-        </div>
-        <div class="nav-items">
-          <a href=""><img src="/assets/rejected-icon.png" alt="" width="20px"> Rejected Request</a>
-        </div>
+        <li><a href="/assets/pages/landing.html">
 
-
-      </div>
-    </aside>
+          <img src="/assets/images/Sterling-Logo-Full-Color.png" alt="home" style="width: 120px; height: auto;" />
+          
+        </a></li>
+        
+        <li>
+        <a href="/assets/pages/dashboard.html"><span class="nav-item">Dashboard</span>
+        </a></li>
+        
+        <li><a href="/">
+          <span class="nav-item">Analytics</span>
+        </a></li>
+        <li><a href="/assets/pages/request-asset.html">
+          <span class="nav-item">Request Assets</span>
+        </a></li>
+        <li><a href="/assets/pages/add-asset.html">
+          <span class="nav-item">Add Assets</span>
+        </a></li>
+        <li><a href="/assets/pages/manage.html">
+          <span class="nav-item">Manage Assets</span>
+        </a></li>
+        <li><a href="/assets/pages/move-asset.html">
+          <span class="nav-item">Move Asset</span>
+        </a></li>
+        <li><a href="/assets/pages/branch-asset.html">
+          <span class="nav-item">Branch Assets</span>
+        </a></li>
+        <li><a href="/assets/pages/auction.html">
+          <span class="nav-item">Auction</span>
+        </a></li>
+      </ul>
+    </nav>
 
     <section class="right-sidebar">
-      <div class="logo">
-        <img src="/assets/Sterling_Bank_Logo.png" alt="Sterling Bank" width="150px">
-      </div>
       <div class="heading">
         <div class="heading-left">
           <h1>Manage Assets</h1>
@@ -115,7 +105,7 @@
             </div>
           </div>
 
-          <div class="row1">
+          <!-- <div class="row1">
             <div class="row-content">
               <label for="text">Tag*</label><br>
               <input type="text" name="text" required>
@@ -143,20 +133,24 @@
               <label for="text">Status</label><br>
               <input type="text" name="text">
             </div>
-          </div>
+          </div> -->
         </form>
     </div>
+    <div class="add">
+      <!-- <input type="button" value="Delete Asset"> -->
+      <input type="button" value="Add Asset">
+  </div>
 
     <div class="heading">
       <div class="heading-left">
-        <h1>Assign Assets</h1>
+        <h3>Assign Assets</h3>
       </div>
     </div>
     <div class=lower-content>
         <div class="search">
           <label for="text">Search Employee</label><br>
           <input type="text" class="search-feild">
-          <img src="/assets/search_icon.png" alt="" width="22px">
+          <img src="/assets/images/search_icon.png" alt="" width="22px">
         </div>
     </div>
     <div class="lowerpane">
@@ -178,10 +172,7 @@
 
     </div>
     
-  <div class="add">
-      <!-- <input type="button" value="Delete Asset"> -->
-      <input type="button" value="Add Asset">
-  </div>
+ 
       
 
   </section>

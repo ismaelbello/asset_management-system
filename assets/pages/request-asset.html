@@ -4,46 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sterling Asset Management System</title>
-    <link rel="stylesheet" href="/css/request-asset.css">
+    <link rel="stylesheet" href="/assets/css/request.css">
 </head>
 <body>
     <div class="content">
-        <nav>
-            <ul><li>
-              <a href="/pages/dashboard.html"><span class="nav-item">Dashboard</span>
+        <nav class="side-bar">
+            <ul>
+      
+              <li><a href="/assets/pages/landing.html">
+      
+                <img src="/assets/images/Sterling-Logo-Full-Color.png" alt="home" style="width: 120px; height: auto;" />
+                
               </a></li>
-              <li><a href="/pages/landing.html">
-                <span class="nav-item">Home</span>
+              
+              <li>
+              <a href="/assets/pages/dashboard.html"><span class="nav-item">Dashboard</span>
               </a></li>
+              
               <li><a href="/">
                 <span class="nav-item">Analytics</span>
               </a></li>
-              <li><a href="/pages/request-assets.html">
+              <li><a href="/assets/pages/request-asset.html">
                 <span class="nav-item">Request Assets</span>
               </a></li>
-              <li><a href="/pages/add-asset.html">
+              <li><a href="/assets/pages/add-asset.html">
                 <span class="nav-item">Add Assets</span>
               </a></li>
-              <li><a href="/pages/manage-assets.html">
+              <li><a href="/assets/pages/manage.html">
                 <span class="nav-item">Manage Assets</span>
               </a></li>
-              <li><a href="/pages/move-asset.html">
+              <li><a href="/assets/pages/move-asset.html">
                 <span class="nav-item">Move Asset</span>
               </a></li>
-              <li><a href="/pages/branch-asset.html">
-                <span class="nav-item">Assets by Branch</span>
+              <li><a href="/assets/pages/branch-asset.html">
+                <span class="nav-item">Branch Assets</span>
               </a></li>
-              <li><a href="/pages/auction.html">
+              <li><a href="/assets/pages/auction.html">
                 <span class="nav-item">Auction</span>
               </a></li>
             </ul>
           </nav>
+      
           <section class="container">
-            <img src="/assets/Sterling_Bank_Logo2.png" alt="logo">
             <div class="head">
                 <h1>Request for an asset</h1> 
             </div>
-            <form class="form-container" action="C:\Users\ANDY BENNET\Desktop\Asset Management System\submit.html">
+            <form class="form-container" action="">
                 <div class="form1">
                     <div>
                         <label for="tit">Name</label><br>
@@ -96,7 +102,7 @@
                 </div>
                 <!-- <a href="https://sterling.ng/"><button  class="btn" >Submit Request</button></a>  -->
                 <!-- <button onclick="window.open('/pages/submit.html');" class="btn">Submit Request</button> -->
-                <button class="btn" type="button" onClick="location.href='/pages/submit.html' " value='submit request'>Submit Request</button>
+                <button class="btn" type="button" onClick="location.href='/assets/pages/submit.html' " value='submit request'>Submit Request</button>
             </form>
         </section>
           

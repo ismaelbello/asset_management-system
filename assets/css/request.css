@@ -13,14 +13,18 @@
   .content{
     display:flex;
   }
+
+.side-bar{
+    width: 15%;
+}
   nav{
     position: relative;
     top: 0;
     bottom: 0;
     height: 100vh;
     left: 0;
-    background: hsl(0, 87%, 40%);
-    width: 120px;
+    background: hsl(0, 59%, 20%);
+    width: 280px;
     overflow: initial;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   }
@@ -35,43 +39,33 @@
     padding-bottom: 10%;
   }
   .nav-item{
-    position: relative;
-    top: 12px;
-    margin-left: 10px;
-    color: #ffffff;
-  }
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+  color: #ffffff;
+}
   a:hover{
-    background: #646464;
-    width: 240px;
+    background:  hsl(0, 87%, 40%);
+    width: 20px;
   }
   .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    width: 100%;
+    width: 85%;
     height:100%;    
 } 
-.container img{
-    float: right;
-    margin-top: 20px;
-    margin-left: 100px;
-    padding-bottom: 1px;
-}
 .head{
     text-align: center;
 }
  h1{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    justify-content: center;
 }
 p{
     margin-bottom: 60px;
     color: grey;
 }
 .form-container input{
-    /* padding-bottom: 10px; */
-    width: 80%;
+    width: 10%;
     border-radius: 3px;
     color: grey;
     margin-bottom: 3px;
@@ -80,26 +74,25 @@ p{
     text-align: center;
     border: 1px solid gray;   
 }
-
 .form-container label{
     color: grey;
     margin-bottom: 50px;
 }
+.form-container{
+    width: 50%;   
+} 
+input{
+    height: 32px;
+}
 .form1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-       
+    justify-content: space-between;      
 }
-.form-container{
-    width: 50%;
-    
-} 
  .form2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 .form3{
     display: flex;
@@ -129,8 +122,8 @@ p{
 }
 
 @media screen and (min-width:768px) {
-    nav{
-        width: 150px;
+    .side-bar{
+        width: 15%;
     }
     .container{
     display: flex;
@@ -139,13 +132,7 @@ p{
     flex-direction:column;
     width: 110%;
     height:100%;   
-} 
-    .container img{
-    float: right;
-    margin-top: 20px;
-    margin-left: 400px;
-    padding-bottom: 1px;
-}
+}  
 .form-container input{
     padding-bottom: 10px;
     width: 90%;
@@ -156,42 +143,49 @@ p{
     padding-top: 10px;
     text-align: center;
     border: 1px solid gray;   
-}
+    }
 .form-container{
-    width: 50%;   
-} 
-
+    width: 60%;   
+    } 
 .btn{
-    width: 22%;
-}
+    width: 24%;
+    font-size: 8px;
+    }
 }
 
 @media screen and (min-width:1024px){
-    nav{
-        width: 240px;
+    .side-bar{
+        width: 18.7%;
     }
     a{
         font-size: 12px;
     }
+    a:hover{
+        width: 205px;
+    }
     .container{
-        width: 100%;
+        margin-right: 150px;
     }
     .btn{
-        width: 20%;
-        font-size: 12px;
-    }
-    .container img{
-        margin-left: 700px;
+        width: 21%;
+        font-size: 10px;
     }
     .nav-items{
-        margin-left: 100px;
+        margin-left: 20px;
     }
     .form-container input{
         padding-bottom: 10px;
-        width: 140%;
+        width: 150%;
         border-radius: 3px;
     }
-
 }
-
+@media screen and (min-width:1115px){
+    .side-bar{
+        width: 15%;
+    }
+    .btn{
+        width: 17%;
+        font-size: 11px;
+    }
+}
 

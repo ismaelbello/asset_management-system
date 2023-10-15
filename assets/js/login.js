@@ -54,7 +54,7 @@ if(passwordValue === "") {
     setSuccess(password)
 }
 if (usernameValue && passwordValue){
-    window.location.href="/pages/dashboard.html"
+    window.location.href="/assets/pages/dashboard.html"
 }
 }
 

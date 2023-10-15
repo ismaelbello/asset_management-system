@@ -7,7 +7,7 @@
 } */
 
 body{
-    background-image: url(/assets/bg.jpg);
+    background-image: url(/assets/images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'poppins', sans-serif;
@@ -50,7 +50,7 @@ header{
 }
 
 .nav__link a:hover {
-    background-color: palevioletred;
+    color:hsl(0, 87%, 40%);
 }
 
 /* .hide {
@@ -119,11 +119,11 @@ input {
 } 
 
 .input-control.error input {
-    border-color: #ff3860;
+    border-color: red;
 }
 
 .input-control .error {
-    color: #ff3860;
+    color: red;
     font-size: 9px;
     height: 13px;
 }
@@ -137,7 +137,7 @@ input {
     background-color: hsl(0, 0%, 20%);
     padding: 40px; 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
     
 }
@@ -145,15 +145,19 @@ input {
 #footer a{
     color: white;
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-top: 20px;
     max-height: 100vh;
     
 }
 
+#footer a:hover{
+    color: hsl(0, 87%, 40%);
+}
+
 .white{
     width: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
     margin-bottom: 10px;
 }
 
@@ -179,6 +183,9 @@ input {
     h1{
         width: 50%;
     }   
+}
+#footer a{
+    margin-right: 30px;
 }
 
 /* MEDIA QUERIES */
