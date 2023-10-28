@@ -64,33 +64,33 @@ a:hover{
   cursor: pointer;
 }
 .main-analytics .card{
-  width: 25%;
-  margin: 10px;
+  width: 15%;
+  margin: 20px;
   background: #ffffff;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   font-size: 12px;
   
 }
 .main-analytics .card1{
-  width: 25%;
-  margin: 10px;
+  width: 15%;
+  margin: 20px;
   background: #B3ACAC;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   font-size: 12px;
   
 }
 .main-analytics .card2{
-  width: 25%;
-  margin: 10px;
+  width: 15%;
+  margin: 20px;
   background: hsl(0, 87%, 40%);
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   color: #ffffff;
@@ -98,37 +98,35 @@ a:hover{
   
 }
 .main-analytics .card3{
-  width: 25%;
-  margin: 10px;
+  width: 15%;
+  margin: 20px;
   background: whitesmoke;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   font-size: 12px;
   color: #000;
 }
 .main-analytics .card4{
-  width: 25%;
-  margin: 10px;
+  width: 15%;
+  margin: 20px;
   background: silver;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  font-size: 12px;
-  
+  font-size: 12px; 
 }
 .main-analytics .card5{
-  width: 25%;
-  margin: 10px;
+  width: 15%;
+  margin: 20px;
   background: #e8c3b9;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  font-size: 12px;
-  
+  font-size: 12px; 
 }
 
 /* .main-analytics .card .card1 .card2 .card3 .card4 .card5 h3{
@@ -156,7 +154,7 @@ a:hover{
   padding: 20px;
   width: 100%;
   box-shadow: 0 7px 25px rgba(0,0,0,0.08);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -170,6 +168,22 @@ a:hover{
   a:hover{
     width: 205px;
 }
+.chartbox{
+  width: 150%;
+}
+.main-analytics{
+  width: 150%;
+}
  
+}
+
+@media screen and (min-width: 1024px){
+  .chartbox{
+    width: 100%;
+  }
+  .main-analytics{
+    width: 100%;
+  }
+   
 }
 

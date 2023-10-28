@@ -71,11 +71,12 @@ header{
 #form {
     width: 200px;
     margin: 10vh auto 0 auto;
-    padding: 10px;
+    padding: 1px 10px;
     background-color: whitesmoke;
     border-radius: 10px;
     font-size: 12px;
     margin-bottom: 80px;
+    
 }
 
 h1{
@@ -167,7 +168,7 @@ input {
     }  
 
     #form{
-        width: 300px;
+        width: 270px;
     }
 
     html{

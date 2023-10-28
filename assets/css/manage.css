@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     outline: none;
-    /* border: none; */
     text-decoration: none;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -20,7 +19,7 @@
     position: relative;
     top: 0;
     bottom: 0;
-    height: 125vh;
+    height: 100vh;
     left: 0;
     background: hsl(0, 59%, 20%);
     /* width: 280px; */
@@ -66,20 +65,20 @@
     margin-bottom: 50px;
   }
   .btn1{
-    width: 6em;
+    width: 8em;
     height: 2.5em;
     border-radius: 0.5em;
     background-color: silver;
     border: 1px solid rgb(161, 161, 161)
   }
-  .btn2{
+  /* .btn2{
     width: 8em;
     height: 2.5em;
     border-radius: 0.5em;
     background-color: hsl(0, 87%, 40%);
     color: #ffffff;
     border: none;
-  }
+  } */
 
   .search{
     margin-bottom: 1em;
@@ -91,8 +90,6 @@
   }
   .search img{
     position: absolute;
-    left: 14.5em;
-    top: 7em;
   }
   .row1{
     display: flex;
@@ -111,11 +108,11 @@
     box-shadow:0px 5px 5px 0px #ddd;
     /* margin-top: 10px; */
   }
-  .lower-content img{
+  /* .lower-content img{
     position: absolute;
     left: 525px;
     top: 785px;
-  }
+  } */
   .lowerpane{
     margin-bottom: 5em;
     padding-top: 40px;
@@ -139,7 +136,7 @@
   }
   .add{
     float: right;
-    padding-top: 120px;
+    padding-top: 100px;
   } 
   .add input{
     width: 8em;
