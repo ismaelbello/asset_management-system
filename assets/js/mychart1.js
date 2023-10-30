@@ -1,5 +1,5 @@
-var xValues = ["Annex", "Kaduna", "Head office", "Ilupeju","Ali kaduna","Yaba"];
-var yValues = [55, 49, 44, 24, 40,30];
+var xValues = ["SouthWest", "SouthEast", "SouthSouth", "NorthWest","NorthEast","NorthCentral"];
+var yValues = [500, 300, 200, 300, 200,300];
 var barColors = [
     "#DC1C1C",
     "#646464",
@@ -21,7 +21,7 @@ new Chart("mychart1", {
   options: {
     title: {
       display: true,
-      text: "Total workstation"
+      text: "Total Asset in Regions"
     }
   }
 });

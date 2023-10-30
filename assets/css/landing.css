@@ -12,47 +12,10 @@ body{
     
 }
 
-header{
-    color: white;
-    background-color: black;
-    display: flex;
-    padding-left: 50px;
-    padding-right: 150px;
-    height: 80px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav__link a {
-    display: inline;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 20px;
-}
-
-.nav__link a:hover {
-    background-color: palevioletred;
-}
-
 .logo {
     width: 200px;
     height: 60px;
     padding: 20px;
-}
-
-.container {
-    max-width: 1024px;
-    margin: auto;
-}
-
-#form {
-    width: 300px;
-    margin: 10vh auto 0 auto;
-    padding: 10px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    font-size: 12px;
 }
 
 h1{
@@ -78,35 +41,12 @@ h1{
     background-color: hsl(0, 0%, 10%);
     transition: 0.2s ease-in;
 }
-footer {
-    background-color: hsl(0, 0%, 20%);
-    padding: 60px; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a{
-    color: whitesmoke; 
-    padding: 100px;
-    text-decoration: none;
-}
-
-ul{
-    display: flex;
-    margin-right: 100px;
-}
-
-
-.white{
-    width: 100px;
-    margin-left: 50px;
-}
 
 @media screen  and (min-width: 768px){
     .btn{
         width: 15%;
         padding: 15px;
+        margin-left: 43%;
     }
     h1{
         font-size: 40px;
@@ -114,7 +54,9 @@ ul{
 }
 @media screen  and (min-width: 1024px){
     .btn{
-        width: 10%;
+        width: 7%;
+        padding: 12px;
+        margin-top: 80px;
     }
     h1{
         width: 50%;

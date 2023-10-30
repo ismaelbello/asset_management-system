@@ -1,5 +1,5 @@
-var xValues = ["Desktop", "Printer", "Chair", "Table", "ATM","Laptop"];
-var yValues = [55, 49, 44, 24, 50,33];
+var xValues = ["Desktop", "Chair", "Laptop", "Table", "Printer","ATM"];
+var yValues = [700, 600, 400, 300, 200,150];
 var barColors = [
     "#DC1C1C",
     "#646464",

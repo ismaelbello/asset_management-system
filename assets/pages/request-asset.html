@@ -21,7 +21,7 @@
               <a href="/assets/pages/dashboard.html"><span class="nav-item">Dashboard</span>
               </a></li>
               
-              <li><a href="/">
+              <li><a href="#">
                 <span class="nav-item">Analytics</span>
               </a></li>
               <li><a href="/assets/pages/request-asset.html">
@@ -50,58 +50,57 @@
                 <h1>Request for an asset</h1> 
             </div>
             <form class="form-container" action="">
-                <div class="form1">
+                <div class="form">
                     <div>
-                        <label for="tit">Name</label><br>
-                        <input type="text" id="tit"><br><br>
+                        <label for="text">Name</label><br>
+                        <input type="text" name="text"><br><br>
                     </div>
                     <div>
-                        <label for="des">Department</label><br>
-                        <input type="text" id="des"><br><br>
-                    </div>
-                </div>
-                <div class="form2">
-                    <div>
-                        <label for="tag">Group</label><br>
-                        <input type="text" id="tag"><br><br>
-                    </div>
-                    <div>
-                        <label for="status">Regional Hub</label><br>
-                        <input type="text" id="status"><br><br>
+                        <label for="text">Department</label><br>
+                        <input type="text" name="text"><br><br>
                     </div>
                 </div>
-                <div class="form3">
+                <div class="form">
                     <div>
-                        <label for="tit">Location*</label><br>
-                        <input type="text" id="tit1"><br><br>
+                        <label for="text">Group</label><br>
+                        <input type="text" name="text"><br><br>
                     </div>
                     <div>
-                        <label for="des">Asset Requested</label><br>
-                        <input type="text" id="des1"><br><br>
-                    </div>
-                </div>
-                <div class="form4">
-                    <div>
-                        <label for="tit">Brand</label><br>
-                        <input type="text" id="tit2"><br><br>
-                    </div>
-                    <div>
-                        <label for="des">Justification</label><br>
-                        <input type="text" id="des2"><br><br>
+                        <label for="text">Regional Hub</label><br>
+                        <input type="text" name="text"><br><br>
                     </div>
                 </div>
-                <div class="form5">
+                <div class="form">
                     <div>
-                        <label for="tit">IT Support in Charge*</label><br>
-                        <input type="text" id="tit3"><br><br>
+                        <label for="text">Location*</label><br>
+                        <input type="text" name="text"><br><br>
                     </div>
                     <div>
-                        <label for="des">Comments</label><br>
-                        <input type="text" id="des3"><br><br>
+                        <label for="text">Asset Requested</label><br>
+                        <input type="text" name="text"><br><br>
                     </div>
                 </div>
-                <!-- <a href="https://sterling.ng/"><button  class="btn" >Submit Request</button></a>  -->
-                <!-- <button onclick="window.open('/pages/submit.html');" class="btn">Submit Request</button> -->
+                <div class="form">
+                    <div>
+                        <label for="text">Brand</label><br>
+                        <input type="text" name="text"><br><br>
+                    </div>
+                    <div>
+                        <label for="text">Justification</label><br>
+                        <input type="text" name="text"><br><br>
+                    </div>
+                </div>
+                <div class="form">
+                    <div>
+                        <label for="text">IT Support*</label><br>
+                        <input type="text" name="text"><br><br>
+                    </div>
+                    <div>
+                        <label for="text">Comments</label><br>
+                        <input type="text" name="text"><br><br>
+                    </div>
+                </div>
+               
                 <button class="btn" type="button" onClick="location.href='/assets/pages/submit.html' " value='submit request'>Submit Request</button>
             </form>
         </section>

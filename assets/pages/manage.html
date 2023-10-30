@@ -51,7 +51,6 @@
       <div class="heading">
         <div class="heading-left">
           <h1>Manage Assets</h1>
-          <!-- <p>Documents and attachment that have been uploaded as part of your inventories</p> -->
         </div>
         <!-- <div class="buttons-right">
           <button class="btn1"> Export </button>
@@ -66,8 +65,13 @@
               <input type="text" name="text" placeholder="Keyword">
             </div>
             <div class="row-content">
-              <label for="text">Category*</label><br>
-              <input type="text" name="text">
+              <label for="cat">Category*</label><br>
+              <input type="item" list="itemList">
+              <datalist id="itemList">
+                <option value="All"></option>
+                <option value="Desktop"></option>
+                <option value="Laptop"></option>
+              </datalist>
             </div>
             <div class="row-content">
               <label for="text">Description*</label><br>
@@ -89,51 +93,6 @@
               <input type="text" name="text" required>
             </div>
           </div>
-
-          <!-- <div class="row1">
-            <div class="row-content">
-              <label for="text">Description*</label><br>
-              <input type="text" name="text" required>
-            </div>
-            <div class="row-content">
-              <label for="text">Asset Tag</label><br>
-              <input type="text" name="text">
-            </div>
-            <div class="row-content">
-              <label for="text">Tag*</label><br>
-              <input type="text" name="text" required>
-            </div>
-          </div> -->
-
-          <!-- <div class="row1">
-            <div class="row-content">
-              <label for="text">Tag*</label><br>
-              <input type="text" name="text" required>
-            </div>
-            <div class="row-content">
-              <label for="text">Status</label><br>
-              <input type="text" name="text">
-            </div>
-            <div class="row-content">
-              <label for="text">Title*</label><br>
-              <input type="text" name="text" required>
-            </div>
-          </div>
-
-          <div class="row1">
-            <div class="row-content">
-              <label for="text">Tag*</label><br>
-              <input type="text" name="text" required>
-            </div>
-            <div class="row-content">
-              <label for="text">Status</label><br>
-              <input type="text" name="text">
-            </div>
-            <div class="row-content">
-              <label for="text">Status</label><br>
-              <input type="text" name="text">
-            </div>
-          </div> -->
         </form>
     </div>
     <div class="add">
@@ -147,35 +106,6 @@
         <!-- <h3>Assign Assets</h3> -->
       </div>
     </div>
-    <!-- <div class=lower-content>
-        <div class="search">
-          <label for="text">Search</label><br>
-          <input type="text" class="search-feild">
-          <img src="/assets/images/search_icon.png" alt="" width="22px">
-        </div>
-    </div> -->
-    <!-- <div class="lowerpane">
-      <div class="active">
-        <p>Michael Durotiwon</p>
-        <p class="para">20th October 2021 - 10th November 2019 </p>
-        <div class="correct"><img src="/assets/active.svg" alt="" width="20px"><p>Non-Active</p></div>
-      </div>
-      <div class="active">
-        <p>Michael Durotiwon</p>
-        <p class="para">20th October 2021 - 10th November 2019 </p>
-        <div class="correct"><img src="/assets/active.svg" alt="" width="20px"><p>Non-Active</p></div>
-      </div>
-      <div class="active">
-        <p>Michael Durotiwon</p>
-        <p class="para1">20th October 2021 - date </p>
-        <div class="correct"><img src="/assets/active.svg" alt="" width="20px"><p>Active</p></div>
-      </div>
-
-    </div> -->
-    
- 
-      
-
   </section>
   
 </body>
