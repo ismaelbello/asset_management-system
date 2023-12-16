@@ -22,7 +22,7 @@
     bottom: 0;
     height: 100vh;
     left: 0;
-    background: hsl(0, 59%, 20%);
+    background: maroon;
     /* width: 280px; */
     overflow: initial;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@
   }
   a:hover{
     background-color: hsl(0, 87%, 40%);
-    width: 205px;
+    width: 115px;
   }
   /*Styling for right sidebar begins*/
   .right-sidebar{
@@ -53,12 +53,11 @@
     width: 83%;
     outline: #000000;
   }
+  
   h1{
     font-size: 1.5rem;
   }
-  .heading-left h1{
-    margin-bottom: -2.7em;
-  }
+ 
   .heading{
     display: flex;
     justify-content: space-between;
@@ -79,61 +78,24 @@
     color: #ffffff;
     border: none;
   }
-  .search{
-    margin-bottom: 2em;
-  }
-  .search-feild{
-    width: 100%;
-    line-height: 2rem;
-    border-radius: 0.5em;
-  }
-  .search img{
-    position: absolute;
-    left: 14.5em;
-    top: 7em;
-  }
+  
   .row1{
     display: flex;
     justify-content: space-between;
   }
   .row-content input{
-    width: 280px;
-    line-height: 30px;
+    width: 8rem;
+    height: 1.5rem;
     margin-bottom: 25px;
     margin-top: 10px;
   }
-  .lower-content input{
-    width: 25%;
-    line-height: 1.8rem;
-    border-radius: 0.5em;
-    box-shadow:0px 5px 5px 0px #ddd;
-    /* margin-top: 10px; */
-  }
-  .lower-content img{
-    position: absolute;
-    left: 525px;
-    top: 785px;
-  }
-  .lowerpane{
-    margin-bottom: 5em;
-  }
-  .active{
-    display: flex;
-    justify-content: space-between;
-    background-color: #ddd;
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-bottom: 0.1em;
-  }
-  .correct{
-    display: flex;
-  }
-  .correct img{
-    margin-right: 1rem;
-  }
-  .para1{
-    margin-left: -9em;
-  }
+
+  .item {
+    width: 17vw;
+    height: 1.6rem;
+    margin: 10px 0;
+   }
+  
   .add{
     float: right;
     margin-top: 40px;
@@ -146,6 +108,49 @@
     color: #ffffff;
     border: none;
   }
+  
+  @media screen and (min-width:1024px){
+    .side-bar{
+        width: 16.88%;
+      
+    }
+    a{
+        font-size: 12px;
+    }
+    a:hover{
+        width: 205px;
+    }
+    .container{
+        margin-right: 150px;
+    }
+
+    .btn1{
+      width: 6em;
+      height: 2em;
+    }
+    .btn2{
+      width: 8em;
+      height: 2em;
+    }
+    .add input{
+        width: 6em;
+        height: 2em;
+        
+    }
+    .nav-items{
+        margin-left: 20px;
+    }
+    .row-content input{
+      width: 102%;
+    }
+
+    .row-content .item{
+      width: 13vw;
+      height: 27px;
+      margin-bottom: 25px;
+      margin-top: 10px;
+    }
+}
   
   
   

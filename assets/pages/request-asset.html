@@ -11,35 +11,35 @@
         <nav class="side-bar">
             <ul>
       
-              <li><a href="/assets/pages/landing.html">
+              <li><a href="/index.html">
       
                 <img src="/assets/images/Sterling-Logo-Full-Color.png" alt="home" style="width: 120px; height: auto;" />
                 
               </a></li>
               
               <li>
-              <a href="/assets/pages/dashboard.html"><span class="nav-item">Dashboard</span>
+              <a href="#"><span class="nav-item">Dashboard</span>
               </a></li>
               
-              <li><a href="#">
+              <!-- <li><a href="#">
                 <span class="nav-item">Analytics</span>
-              </a></li>
+              </a></li> -->
               <li><a href="/assets/pages/request-asset.html">
                 <span class="nav-item">Request Assets</span>
               </a></li>
-              <li><a href="/assets/pages/add-asset.html">
+              <li><a href="#">
                 <span class="nav-item">Add Assets</span>
               </a></li>
-              <li><a href="/assets/pages/manage.html">
+              <li><a href="#">
                 <span class="nav-item">Manage Assets</span>
               </a></li>
-              <li><a href="/assets/pages/move-asset.html">
+              <li><a href="#">
                 <span class="nav-item">Move Asset</span>
               </a></li>
-              <li><a href="/assets/pages/branch-asset.html">
+              <!-- <li><a href="/assets/pages/branch-asset.html">
                 <span class="nav-item">Branch Assets</span>
-              </a></li>
-              <li><a href="/assets/pages/auction.html">
+              </a></li> -->
+              <li><a href="#">
                 <span class="nav-item">Auction</span>
               </a></li>
             </ul>
@@ -47,47 +47,90 @@
       
           <section class="container">
             <div class="head">
-                <h1>Request for an asset</h1> 
+                <h1>Request asset</h1> 
             </div>
             <form class="form-container" action="">
                 <div class="form">
                     <div>
-                        <label for="text">Name</label><br>
-                        <input type="text" name="text"><br><br>
+                        <label for="text">Name*</label><br>
+                        <input type="text" name="text"><br>
                     </div>
                     <div>
-                        <label for="text">Department</label><br>
-                        <input type="text" name="text"><br><br>
+                        <label for="text">Department*</label><br>
+                        <select class="item">
+                            <option value="select">Select</option>
+                            <option value="technology">Technology</option>
+                            <option value="operations">Operations</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="compliance">Compliance</option>
+                            <option value="human capital">Human Capital</option>
+                          </select>
                     </div>
                 </div>
                 <div class="form">
                     <div>
                         <label for="text">Group</label><br>
-                        <input type="text" name="text"><br><br>
+                        <select class="item">
+                            <option value="select">Select</option>
+                            <option value="technology">Technology</option>
+                            <option value="operations">Operations</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="compliance">Compliance</option>
+                          </select>
                     </div>
                     <div>
-                        <label for="text">Regional Hub</label><br>
-                        <input type="text" name="text"><br><br>
+                        <label for="text">Regional Hub*</label><br>
+                        <select class="item">
+                            <option value="select">Select</option>
+                            <option value="lagos">Lagos</option>
+                            <option value="upcountry">Upcountry</option>
+                          </select>
                     </div>
                 </div>
                 <div class="form">
                     <div>
                         <label for="text">Location*</label><br>
-                        <input type="text" name="text"><br><br>
+                        <select class="item">
+                            <option value="select">Select</option>
+                            <option value="southwest">South West</option>
+                            <option value="southeast">South East</option>
+                            <option value="northwest">North West</option>
+                            <option value="northeast">North East</option>
+                            <option value="northcentral">North Central</option>
+                          </select>
                     </div>
                     <div>
-                        <label for="text">Asset Requested</label><br>
-                        <input type="text" name="text"><br><br>
+                        <label for="text">Asset Requested*</label><br>
+                        <select class="item">
+                            <option value="select">Select</option>
+                            <option value="laptop">Desktop</option>
+                            <option value="desktop">Laptop</option>
+                            <option value="printer">Printer</option>
+                            <option value="scanner">Scanner</option>
+                            <option value="bvn cam">BVN Cam</option>
+                            <option value="zf1 fps">ZF1 FPS</option>
+                            <option value="lf10 fps">LF10 FPS</option>
+                          </select>
                     </div>
                 </div>
                 <div class="form">
                     <div>
                         <label for="text">Brand</label><br>
-                        <input type="text" name="text"><br><br>
+                        <select class="item">
+                            <option value="select">Select</option>
+                            <option value="all">All</option>
+                            <option value="hp">HP</option>
+                            <option value="dell">Dell</option>
+                          </select>
                     </div>
                     <div>
                         <label for="text">Justification</label><br>
-                        <input type="text" name="text"><br><br>
+                        <select class="item">
+                            <option value="select">Select</option>
+                            <option value="all">All</option>
+                            <option value="old">New request</option>
+                            <option value="unserviceable">Replacement</option>
+                          </select>
                     </div>
                 </div>
                 <div class="form">
@@ -101,7 +144,7 @@
                     </div>
                 </div>
                
-                <button class="btn" type="button" onClick="location.href='/assets/pages/submit.html' " value='submit request'>Submit Request</button>
+                <button class="btn" type="button" onClick="location.href='/assets/pages/submit.html' " value='submit request'>Submit</button>
             </form>
         </section>
           

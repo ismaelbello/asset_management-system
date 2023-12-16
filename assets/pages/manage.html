@@ -13,7 +13,7 @@
     <nav class="side-bar">
       <ul>
 
-        <li><a href="/assets/pages/landing.html">
+        <li><a href="/index.html">
 
           <img src="/assets/images/Sterling-Logo-Full-Color.png" alt="home" style="width: 120px; height: auto;" />
           
@@ -23,9 +23,9 @@
         <a href="/assets/pages/dashboard.html"><span class="nav-item">Dashboard</span>
         </a></li>
         
-        <li><a href="/">
+        <!-- <li><a href="/">
           <span class="nav-item">Analytics</span>
-        </a></li>
+        </a></li> -->
         <li><a href="/assets/pages/request-asset.html">
           <span class="nav-item">Request Assets</span>
         </a></li>
@@ -38,9 +38,9 @@
         <li><a href="/assets/pages/move-asset.html">
           <span class="nav-item">Move Asset</span>
         </a></li>
-        <li><a href="/assets/pages/branch-asset.html">
+        <!-- <li><a href="/assets/pages/branch-asset.html">
           <span class="nav-item">Branch Assets</span>
-        </a></li>
+        </a></li> -->
         <li><a href="/assets/pages/auction.html">
           <span class="nav-item">Auction</span>
         </a></li>
@@ -66,31 +66,55 @@
             </div>
             <div class="row-content">
               <label for="cat">Category*</label><br>
-              <input type="item" list="itemList">
-              <datalist id="itemList">
-                <option value="All"></option>
-                <option value="Desktop"></option>
-                <option value="Laptop"></option>
-              </datalist>
+              <select class="item">
+                <option value="select">Select</option>
+                <option value="all">All</option>
+                <option value="laptop">Desktop</option>
+                <option value="desktop">Laptop</option>
+                <option value="printer">Printer</option>
+                <option value="scanner">Scanner</option>
+              </select>
             </div>
             <div class="row-content">
               <label for="text">Description*</label><br>
-              <input type="text" name="text" required>
+              <select class="item">
+                <option value="select">Select</option>
+                <option value="all">All</option>
+                <option value="hp">HP</option>
+                <option value="dell">Dell</option>
+              </select>
             </div>
           </div>
 
           <div class="row1">
             <div class="row-content">
               <label for="text">Status*</label><br>
-              <input type="text" name="text" required>
+              <select class="item">
+                <option value="select">Select</option>
+                <option value="all">All</option>
+                <option value="active">Active</option>
+                <option value="not active">None Active</option>
+              </select>
             </div>
             <div class="row-content">
               <label for="text">Department*</label><br>
-              <input type="text" name="text">
+              <select class="item">
+                <option value="select">Select</option>
+                <option value="all">All</option>
+                <option value="technology">Technology</option>
+                <option value="operations">Operations</option>
+                <option value="marketing">Marketing</option>
+                <option value="compliance">Compliance</option>
+                <option value="human capital">Human Capital</option>
+              </select>
             </div>
             <div class="row-content">
               <label for="text">Location</label><br>
-              <input type="text" name="text" required>
+              <select class="item">
+                <option value="select">Select</option>
+                <option value="lagos">Lagos</option>
+                <option value="upcountry">Upcountry</option>
+              </select>
             </div>
           </div>
         </form>

@@ -39,7 +39,8 @@ header{
 
 /* THIS IS THE BODY BACKGROUND SECTION */
 .containerBackground{
-background-color: #000000;
+background-color: brown;
+height: 250px;
 
 }
 
@@ -60,15 +61,15 @@ background-color: #000000;
 .welcomeText {
     color: #ffffff;
     font-weight: 400;
-    font-size: 7rem;
+    font-size: 4rem;
     position: absolute;
-    top: 50%;
+    bottom: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .username{
-    color: hsl(0, 87%, 40%);
+    color: black;
 }
 .welcomeText p{
     font-weight: 200;
@@ -99,7 +100,20 @@ background-color: #000000;
    
 }
 .auctionContainer > div ul li{
-   text-align: center;
+   text-align: center
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   ;
    list-style: none;
    font-size: 1rem;
 

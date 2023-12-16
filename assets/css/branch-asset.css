@@ -22,7 +22,7 @@
     bottom: 0;
     height: 100vh;
     left: 0;
-    background: hsl(0, 59%, 20%);
+    background: maroon;
     width: 280px;
     overflow: initial;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);

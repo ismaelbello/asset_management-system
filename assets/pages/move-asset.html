@@ -11,15 +11,15 @@
   <div class="container">
     <nav class="side-bar">
         <ul>
-          <li><a href="/assets/pages/landing.html">
+          <li><a href="/index.html">
             <img src="/assets/images/Sterling-Logo-Full-Color.png" alt="home" style="width: 120px; height: auto;" />
           </a></li>
           <li>
           <a href="/assets/pages/dashboard.html"><span class="nav-item">Dashboard</span>
           </a></li>
           <li><a href="/">
-            <span class="nav-item">Analytics</span>
-          </a></li>
+            <!-- <span class="nav-item">Analytics</span>
+          </a></li> -->
           <li><a href="/assets/pages/request-asset.html">
             <span class="nav-item">Request Assets</span>
           </a></li>
@@ -32,93 +32,103 @@
           <li><a href="/assets/pages/move-asset.html">
             <span class="nav-item">Move Asset</span>
           </a></li>
-          <li><a href="/assets/pages/branch-asset.html">
+          <!-- <li><a href="/assets/pages/branch-asset.html">
             <span class="nav-item">Branch Assets</span>
-          </a></li>
+          </a></li> -->
           <li><a href="/assets/pages/auction.html">
             <span class="nav-item">Auction</span>
           </a></li>
         </ul>
       </nav>
 
-        <section class="right-sidebar">
-          <div class="request-heading">
-            <div class="heading-left">
-              <h1>Equipment Movement Form</h1>
-              <p>Please fill appropriately</p>
+      <section class="right-sidebar">
+        <div class="heading">
+        <div class="heading-left">
+          <h1>Move Assets</h1>
+        </div>
+      </div>
+      <div class="form">
+        <form action="#">
+          <div class="row1">
+            <div class="row-content">
+              <label for="text">Item Desc*</label><br>
+              <select class="item">
+                <option value="select">Select</option>
+                <option value="all">All</option>
+                <option value="laptop">Desktop</option>
+                <option value="desktop">Laptop</option>
+                <option value="printer">Printer</option>
+                <option value="scanner">Scanner</option>
+                <option value="bvn cam">BVN Cam</option>
+                <option value="zf1 fps">ZF1 FPS</option>
+                <option value="lf10 fps">LF10 FPS</option>
+              </select>
             </div>
+            <div class="row-content">
+              <label for="text">Model*</label><br>
+              <input type="text" name="text">
+            </div>
+            <div class="row-content">
+              <label for="text">Serial Number*</label><br>
+              <input type="text" name="text" required>
+            </div>
+          </div>
 
-            <div class="form">
-              <form action="#">
-                <div class="row1">
-                  <div class="row-content">
-                    <label for="text">Equipment/Item Desc</label><br>
-                    <input type="text" name="text" required placeholder="">
-                  </div>
-                  <div class="row-content">
-                    <label for="text">Mode/ Manufacturer: </label><br>
-                    <input type="text" name="text" placeholder="">
-                  </div>
-                </div>
-      
-                <div class="row1">
-                  <div class="row-content">
-                    <label for="text">Serial Number</label><br>
-                    <input type="text" name="text" required placeholder="">
-                  </div>
-                  <div class="row-content">
-                    <label for="text">Asset Tag</label><br>
-                    <input type="text" name="text" placeholder="">
-                  </div>
-                </div>
-      
-                <div class="row1">
-                  <div class="row-content">
-                    <label for="text">Move From</label><br>
-                    <input type="text" name="text" required placeholder="">
-                  </div>
-                  <div class="row-content">
-                    <label for="text">Move To</label><br>
-                    <input type="text" name="text" placeholder="">
-                  </div>
-                </div>
-      
-                <div class="row1">
-                  <div class="row-content">
-                    <label for="text">Reason for Allocation/Relocation</label><br>
-                    <input type="text" name="text" required placeholder="">
-                  </div>
-                  <div class="row-content">
-                    <label for="text">Old Custodian</label><br>
-                    <input type="text" name="text" placeholder="">
-                  </div>
-                </div>
-      
-                <div class="row1">
-                  <div class="row-content">
-                    <label for="text">New Custodian</label><br>
-                    <input type="text" name="text" required placeholder="">
-                  </div>
-                  <div class="row-content">
-                    <label for="text">Status*</label><br>
-                    <input type="text" name="text" placeholder="">
-                  </div>
-                </div>
-                <div class="row1">
-                  <div class="row-content">
-                    <label for="text">Requester</label><br>
-                    <input type="text" name="text" required placeholder="">
-                  </div>
-                  <div class="row-content">
-                    <label for="text">Authorized by</label><br>
-                    <input type="text" name="text" placeholder="">
-                  </div>
-                </div>
-              </form>
-              <div class="add">
-                <input type="button" value="Submit">
-            </div> 
-        </section>
+          <div class="row1">
+            <div class="row-content">
+              <label for="text">Asset Tag*</label><br>
+              <input type="text" name="text" required>
+            </div>
+            <div class="row-content">
+              <label for="text">Move From*</label><br>
+              <input type="text" name="text">
+            </div>
+            <div class="row-content">
+              <label for="text">Move To*</label><br>
+              <input type="text" name="text" required>
+            </div>
+          </div>
+
+          <div class="row1">
+            <div class="row-content">
+              <label for="text">Reason*</label><br>
+              <input type="text" name="text" required>
+            </div>
+            <div class="row-content">
+              <label for="text">Old Custodian</label><br>
+              <input type="text" name="text">
+            </div>
+            <div class="row-content">
+              <label for="text">New Custodian</label><br>
+              <input type="text" name="text" required>
+            </div>
+          </div>
+
+          <div class="row1">
+            <div class="row-content">
+              <label for="text">Status*</label><br>
+              <select class="item">
+                <option value="select">Select</option>
+                <!-- <option value="all">All</option> -->
+                <option value="active">Active</option>
+                <option value="not active">None Active</option>
+              </select>
+            </div>
+            <div class="row-content">
+              <label for="text">Requester*</label><br>
+              <input type="text" name="text">
+            </div>
+            <div class="row-content">
+              <label for="text">Authorized By</label><br>
+              <input type="text" name="text">
+            </div>
+          </div>
+        </form>
+    </div>
+    <div class="add">
+      <input type="button" value="Submit">
+    </div> 
+  </section>
     </div>
  
   </body>

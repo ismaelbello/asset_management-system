@@ -1,12 +1,12 @@
 var xValues = ["Desktop", "Chair", "Laptop", "Table", "Printer","ATM"];
-var yValues = [700, 600, 400, 300, 200,150];
+var yValues = [900, 800, 700, 600, 500,390];
 var barColors = [
     "#DC1C1C",
     "#646464",
     "#B3ACAC",
     "#e8c3b9",
     "red",
-    // "#876eeb"
+    "silver"
 ];
 
 new Chart("mychart2", {

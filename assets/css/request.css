@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     outline: none;
-    border: none;
+    /* border: none; */
     text-decoration: none;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -23,7 +23,7 @@
     bottom: 0;
     height: 100vh;
     left: 0;
-    background: hsl(0, 59%, 20%);
+    background: maroon;
     width: 280px;
     overflow: initial;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@
 }
   a:hover{
     background:  hsl(0, 87%, 40%);
-    width: 20px;
+    width: 115px;
   }
   .container{
     width: 85%;
@@ -64,23 +64,25 @@ p{
     margin-bottom: 60px;
     color: black;
 }
-.form-container input{
-    width: 10%;
-    border-radius: 3px;
-    color: black;
-    margin-bottom: 3px;
-    margin-top: 4px;
-    padding-top: 10px;
-    text-align: center;
-    border: 1px solid gray;  
-    height: 32px; 
+
+input{
+    width: 10rem;
+    height: 2em;
 }
+
+.item {
+    width: 20vw;
+    height: 1.6rem;
+    margin: 10px 0;
+   }
+   
 .form-container label{
     color: black;
     margin-bottom: 50px;
 }
 .form-container{
-    width: 50%;   
+    width: 50%;  
+     
 } 
 .form{
     display: flex;
@@ -123,6 +125,7 @@ p{
     text-align: center;
     border: 1px solid gray;   
     }
+    
 .form-container{
     width: 60%;   
     } 
@@ -154,16 +157,22 @@ p{
     }
     .form-container input{
         padding-bottom: 10px;
-        width: 150%;
-        border-radius: 3px;
+        width: 180px;
+        height: 27px;
     }
+
+    .item {
+        width: 13vw;
+        height: 1.6rem;
+        margin: 10px 0;
+       }
 }
 @media screen and (min-width:1115px){
     .side-bar{
         width: 15%;
     }
     .btn{
-        width: 17%;
+        width: 12%;
         font-size: 11px;
     }
 }

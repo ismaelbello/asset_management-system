@@ -21,9 +21,9 @@
     position: relative;
     top: 0;
     bottom: 0;
-    height: 120vh;
+    height: 100vh;
     left: 0;
-    background: hsl(0, 59%, 20%);
+    background: maroon;
     /* width: 280px; */
     overflow: initial;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -46,28 +46,33 @@
   }
   a:hover{
     background-color: hsl(0, 87%, 40%);
-    width: 205px;
+    width: 115px;
   }
   .right-sidebar{
-  padding: 2em 1em;
-  width: 84.8%;
-  outline: #000000;
-  margin-left: 100px;
- } 
+    padding: 2em 5em;
+    width: 83%;
+    outline: #000000;
+  }
  h1{
     font-size: 1.5rem;
+    margin-bottom: 3rem;
   }
   .row1{
     display: flex;
     justify-content: space-between;
   }
   .row-content input{
-    width: 280px;
-    line-height: 30px;
+    width: 8rem;
+    height: 1.5rem;
     margin-bottom: 25px;
     margin-top: 10px;
   }
- 
+
+  .item {
+    width: 17vw;
+    height: 1.6rem;
+    margin: 10px 0;
+   }
   .add{
     float: right;
     margin-top: 40px;
@@ -83,12 +88,13 @@
   .request-heading{
     width: 70%;
   }
+
   p{
     color: hsl(0, 0%, 60%);
     margin-bottom: 2em;
     padding-top: 0.5rem;
-    
   }
+
   ::placeholder { 
     color: rgb(153, 152, 152);
     opacity: 1; 
@@ -99,5 +105,42 @@
   ::-ms-input-placeholder {
     color: rgb(153, 152, 152);
   }
+  
+  @media screen and (min-width:1024px){
+    .side-bar{
+        width: 16.88%;
+    }
+    a{
+        font-size: 12px;
+    }
+    a:hover{
+        width: 205px;
+    }
+    .container{
+        margin-right: 150px;
+    }
+    .add input{
+        width: 6em;
+        height: 2em;
+    }
+    .nav-items{
+        margin-left: 20px;
+    }
+    .row-content input{
+      width: 102%;
+    }
+
+    .row-content .item{
+      width: 13vw;
+      height: 27px;
+      margin-bottom: 25px;
+      margin-top: 10px;
+    }
+}
+  
+  
+  
+
+  
   
   

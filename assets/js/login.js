@@ -49,12 +49,12 @@ if(passwordValue === "") {
     setError(password, "Password is required");
     
 } else if(passwordValue.length < 8) {
-    setError(password, "Password must be at least 8 character");
+    setError(password, "Password must be at least 8 character")
 } else {
-    setSuccess(password)
+    setSuccess(password);
 }
-if (usernameValue && passwordValue){
-    window.location.href="/assets/pages/dashboard.html"
+if (usernameValue && passwordValue.length > 8){
+    window.location.href="/assets/pages/request-asset.html"
 }
 }
 

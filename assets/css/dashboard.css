@@ -22,8 +22,8 @@ nav{
   bottom: 0;
   height: 100vh;
   left: 0;
-  background: hsl(0, 59%, 20%);
-  /* width: 280px; */
+  background: maroon;
+  width: 280px;
   overflow: initial;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
@@ -45,6 +45,7 @@ a{
 }
 a:hover{
   background-color: hsl(0, 87%, 40%);
+  width: 115px;
 }
 
 /* Main Section */
@@ -60,37 +61,36 @@ a:hover{
 .main-analytics{
   display: flex;
   margin-top: 20px;
-  background-color: hsl(0, 59%, 20%);
+  background-color: maroon;
   cursor: pointer;
 }
 .main-analytics .card{
-  width: 15%;
+  width: 12%;
   margin: 20px;
   background: #ffffff;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  font-size: 12px;
-  
+  font-size: 12px; 
 }
 .main-analytics .card1{
-  width: 15%;
+  width: 12%;
   margin: 20px;
   background: #B3ACAC;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   font-size: 12px;
   
 }
 .main-analytics .card2{
-  width: 15%;
+  width: 12%;
   margin: 20px;
   background: hsl(0, 87%, 40%);
   text-align: center;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 18px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   color: #ffffff;
@@ -144,15 +144,15 @@ a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  min-height: 100px;
+  min-height: 350px;
   background-color: #B3ACAC;
   cursor: pointer;
 }
 .chartbox .box{
   position: relative;
   background: whitesmoke;
-  padding: 20px;
-  width: 100%;
+  padding: 10px;
+  width: 80%;
   box-shadow: 0 7px 25px rgba(0,0,0,0.08);
   border-radius: 10px;
 }
